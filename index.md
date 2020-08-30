@@ -1,12 +1,19 @@
-## Welcome Cunty whore!
+<div align="center">
+
+# MeinBot
+
+<img align="center" src="https://southpark-online.nl/assets/images/clips/cartmans-rally.jpg">
+
+</div>
+
+</br>
 
 You can use the [editor on GitHub](https://github.com/Daydream404/MeinBot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, GitHub Pages will run to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+# Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
@@ -28,9 +35,20 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Daydream404/MeinBot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<div align="center">
+
+# Commands
+
+MeinBot's commands list
+
+Commands | Usage
+------------ | -------------
+.lyrics | Shows lyrics of wanted song
+.members | Shows number of members
+
+</div>
+
 
 ### Support or Contact
 
