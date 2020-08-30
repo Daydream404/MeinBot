@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #071a20;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #071a20;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #B66B5B;
+  text-align: center;
+  padding: 17px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #071a20;
+  color: white;
+}
+
+img {
+    display: block;
+}
+
+.content {          
+  padding: 0px;
+  background-color: #071a20;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#logo-container img {
+   width: 100%;
+   height: auto;
+}
+
+.cntrdtxt {
+  position:  absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  color: white;
+  border: 3px solid white;
+  padding: 20px;
+}
+
+footer {
+   position: sticky;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+   background: #071a20;
+   color: white;
+}
+
+.footer-list {
+float: right;
+color: white;
+}
+
+.col-md-12 {
+font-size: 1vw;
+padding-top: 2px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+#ftr {
+  text-align: left;
+  padding: 17px 25px;
+  color: #B66B5B;
+}
+
+#aboutme {
+  color: White;
+  font-size: 30px;
+  text-align: center;
+}
+
+#projects {
+  margin-top: 20px;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  #projects{
+    margin-top: 300px;
+  }
+}
+
+@media screen and (min-width: 710px) {
+  #projects{
+    margin-top: 150px;
+  }
+  
+  div.projects-respo1{
+    width: 300%;
+  }
+}
+
+div.projects-respo1{
+	margin-top: 30px;
+ 	padding: 0 3px;
+  float: left;
+  width: 24.99999%;
+  float:left;
+  width:100%;
+}
+
+div.projects-img1 img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  div.projects-respo1 {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width: 900px) {
+  p#story{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  div.projects-respo1 {
+    width: 100%;
+  }
+}
+
+div.projects-respo{
+	margin-top: 30px;
+ 	padding: 0 3px;
+  float: left;
+  width: 24.99999%;
+}
+
+div.projects-img img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  div.projects-respo {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  div.projects-respo {
+    width: 100%;
+  }
+}
+
+#qna {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.qaa {
+  padding: 10px;
+  background-color: #071a20;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #071a20;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #35393b;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #071a20;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  div.column {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+i {
+  color: #B66B5B;
+  margin: 3px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#story {
+  max-width: 100%;
+  height: auto;
+  }

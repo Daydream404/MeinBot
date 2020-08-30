@@ -1,12 +1,42 @@
 <div align="center">
 
-# MeinBot
-
 <img align="center" src="https://southpark-online.nl/assets/images/clips/cartmans-rally.jpg">
 
 </div>
 
-</br>
+<br>
+
+
+<div class="qaa">
+  <h3 id="qna">Q&A</h3>
+
+    <button class="accordion">Who are you?</button>
+      <div class="panel">
+        <p>I'm a CS student from Slovakia.</p>
+      </div>
+
+    <button class="accordion">How old are you?</button>
+      <div class="panel">
+        <p>I'm 18 years old.</p>
+      </div>
+
+    <button class="accordion">What languages do you know?</button>
+      <div class="panel">
+        <p>I'm currently learning Python, C++, HTML & CSS.</p>
+      </div>
+
+    <button class="accordion">What's your price?</button>
+      <div class="panel">
+        <p>Price depends on the time I'll spend on the project.</p>
+      </div>
+
+    <button class="accordion">What's your portfolio?</button>
+      <div class="panel">
+        <p><a href="https://www.starep.sk/">www.starep.sk</a></p>
+      </div>
+
+</div>
+
 
 You can use the [editor on GitHub](https://github.com/Daydream404/MeinBot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -41,11 +71,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 # Commands
 
 MeinBot's commands list
-
-Commands | Usage
------------- | -------------
-.lyrics | Shows lyrics of wanted song
-.members | Shows number of members
 
 </div>
 
